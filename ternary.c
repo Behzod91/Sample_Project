@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// I made a change file
 int main(void)
 {
 	int a, b, max; // max is maximum of a and b
@@ -12,10 +13,8 @@ int main(void)
 	max = ( a > b ) ? a : b;
 	printf( "maximum of %d and %d is %d\n", a, b, max );
 
-	/*
 	(a > b) ? ( printf( "maximum of %d and %d is %d\n", a, b, max )  ) :\
 	( printf( "maximum of %d and %d is %d\n", a, b, max )  )
-	*/
 
 	return 0;
 } // end main
